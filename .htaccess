@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^l/(.*)$ links.php
+
+RewriteRule googlec1d4713683f15569.html static/google.html [L]
+RewriteRUle myopenid-hosted-verification.html static/openid.html [L]

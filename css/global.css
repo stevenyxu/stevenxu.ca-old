@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin: 0px; padding: 0px; font-family: Segoe UI, Candara, Bitstream Vera Sans, DejaVu Sans, Trebuchet MS, Verdana; font-size: 14px; line-height: 20px; }
+h1 { display: block; padding: 5px 5px 10px 5px; font-size: 1.8em; font-weight: bold; }
+strong { font-weight: bold; }
+div a { font-weight: bold; text-decoration: none; padding: 0px 2px; cursor: pointer; }
+div a:hover { text-decoration: underline; }
+em {font-weight: bold;}
+ul {list-style: disc;}
+#logo { display: block; position: absolute; top: 45%; left: 70px; margin-top: -30px; height: 60px; }
+#search { position: absolute; top: 45%; right: 5%; margin-top: -20px; height: 40px; }
+#search input#input { display: block; font-size: 18px; height: 24px; font-family: Helvetica, Arial, sans; padding: 7px; width: 300px; font-weight: bold; border: 1px #ffcc66 solid; }
+div#floater { }
+div#main_content { }
+a#switch { display: block; position: absolute; left: 50%; width: 10px; margin-left: -10px; margin-top: -50px; cursor: pointer; padding: 0px 5px; }
+/* content styles */
+.content { position: absolute; display: none; z-index: 1; padding: 25px 15px; height: 250px; margin-top: -151px; margin-left: 30px; width: 0px; top: 45%; }
+#background { -moz-border-radius: 10px; -webkit-border-radius: 10px; background-repeat: no-repeat; background-position: 39px 120px; }
+#background.narrow { background-image: none; }
+#container { height: 250px; width: 100%; display: table-cell; }
+#container.narrow { margin-left: 0px; }
+#main { margin-left: 365px; max-height: 250px; overflow: auto;}
+#main.narrow { margin-left: 0px; }
+#response { margin-top: 10px; }
+#response p {margin-top: 6px;}
+#response p:first-child {margin-top: 0px;}
+#response ul {list-style: disc; margin: 10px 20px; line-height: 1.1em;}
+#help {font-size: 0.8em;}
+#gallery {}
+#gallery .controller {height: 20px;}
+#gallery #showcase {height: 160px; overflow: hidden; margin-top: 7px;}
+#gallery #showcase div {float: left; margin-right: 10px; border: solid #ddd; border-width: 5px 0px; height: 150px; width: 175px; cursor:pointer; background-position: 175px 0px;}
+#gallery #showcase div.selected {background-position: 0px 0px; cursor: auto;}
+#gallery #showcase div ul {display: none;}
+#gallery #showcase div#details {float: left; margin: 0; border: 0; height: auto; width: auto; cursor: auto; max-width: 270px; padding-left: 5px;}
+#gallery #showcase div#details h2 {font-size: 1.3em; margin-top: 15px; font-weight: bold;}
+
+#gallery #showcase div#details ul {display: block;}
+#gallery #showcase div#details ul {margin: 10px 0 0 20px;}
+#gallery #showcase div#details ul li {display: list-item; margin-bottom: 4px;}
+#gallery #showcase div#details ul li a {display:inline;}
+#gallery #showcase div#details ul li.sum {font-weight: bold;}
+#gallery #showcase p {float:left;}
+
