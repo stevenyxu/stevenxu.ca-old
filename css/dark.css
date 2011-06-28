@@ -1,8 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-
-#background {background-color: #111; -moz-box-shadow:0px 0px 10px #777; border: 1px solid #777; background-image:url(../images/logo_dark.png);} 
-.content {color: #fff;}
-
-div a {color:#ffddaa; background-color: #332211; }
-div a:active {background-color: #443322;}

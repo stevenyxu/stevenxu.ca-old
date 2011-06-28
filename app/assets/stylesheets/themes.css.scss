@@ -1,0 +1,27 @@
+$fg: #333;
+$fg_faded: #888;
+$fg_accent: #ed9310;
+
+$bg1: #fcfcfc;
+$bg2: #fff;
+
+html {
+  background: $bg1 url(subtle_freckles.png) repeat;
+  color: $fg;
+}
+
+body {
+  font-family: 'Cabin', helvetica, arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+a {
+  color: $fg_accent;
+  &:hover {
+    color: saturate($fg_accent, 20%);
+  }
+  &:active {
+    color: darken($fg_accent, 10%);
+  }
+}

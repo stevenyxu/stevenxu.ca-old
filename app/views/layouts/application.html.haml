@@ -1,0 +1,23 @@
+!!!
+%html
+  %head
+    %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    %link(rel="openid.delegate" href="http://stevenxu.myopenid.com/")
+    %link(rel="openid.server" href="http://www.myopenid.com/server")
+    %title Steven Xu
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Cabin:regular,bold&v1'
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Oswald&v1'
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    %header
+      %hgroup
+        %h1 Hi, I'm Steven Xu.
+        %h2 I make websites.
+    #container
+      %section#main
+        = yield
+      %footer
+        %details
+          %summary Copyright © 2011.

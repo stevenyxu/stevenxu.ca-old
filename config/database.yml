@@ -1,0 +1,14 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: stevenxu_development
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: stevenxu_test
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: stevenxu_production

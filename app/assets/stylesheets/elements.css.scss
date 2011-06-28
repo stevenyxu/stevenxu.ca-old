@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  width: 275px;
+  padding: 15px;
+  margin-top: 20px;
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: normal;
+    color: $fg_faded;
+  }
+}
+
+#container {
+  margin: 15px 15px 15px 300px;
+  background-color: $bg2;
+  box-shadow: 0 0 5px $fg_faded;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+footer {
+  text-align: center;
+  color: $fg_faded;
+}

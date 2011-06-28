@@ -1,0 +1,5 @@
+.pages
+  - @pages.each do |page|
+    = render partial: 'page', locals: { page: page }
+  - if admin?
+    = link_to 'New post', new_page_path

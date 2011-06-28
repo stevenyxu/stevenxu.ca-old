@@ -1,0 +1,26 @@
+.page {
+  margin-bottom: 20px;
+  h2.name {
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: normal;
+    font-family: 'Oswald', helvetica, arial, sans-serif;
+    a {
+      color: $fg;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .options {
+    a {
+      color: $fg_faded;
+      font-size: 12px;
+      line-height: 18px;
+      &:hover {
+        color: lighten($fg_faded, 20%);
+      }
+    }
+  }
+}

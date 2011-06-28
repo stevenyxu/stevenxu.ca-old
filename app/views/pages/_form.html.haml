@@ -1,0 +1,23 @@
+= form_for(@page) do |f|
+  - if @page.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@page.errors.count, "error")
+        prohibited this page from being saved:
+      %ul
+        - @page.errors.full_messages.each do |msg|
+          %li= msg
+  .field
+    = f.label :name
+    %br/
+    = f.text_field :name
+  .field
+    = f.label :permalink
+    %br/
+    = f.text_field :permalink
+  .field
+    = f.label :content
+    %br/
+    = f.text_area :content
+  .actions
+    = f.submit
