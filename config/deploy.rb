@@ -20,6 +20,7 @@ after 'deploy', 'deploy:cleanup'
 
 namespace :deploy do
   task :restart, :roles => :app, :except => { :no_release => true } do
+    run "cd #{current_path} && bundle exec thin stop"
     run "cd #{current_path} && bundle exec thin start -p #{deploy_port} -a 127.0.0.1 -e production -d"
   end
 end
