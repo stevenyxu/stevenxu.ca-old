@@ -19,6 +19,7 @@ gem 'devise'
 gem 'friendly_id'
 gem 'haml-rails'
 gem 'redcarpet'
+gem 'thin'
 
 group :development do
   gem 'capistrano'
